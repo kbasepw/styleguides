@@ -1,0 +1,34 @@
+= Coding style guides
+:license: cc-by-4
+:doctype: book
+:author: kbase.pw
+:secnums:
+:toc:
+
+== Introduction
+
+Every group that aims to work together should agree on the conventions and
+policies about how the code should be written and structured. It's much easier
+to collaborate in a large codebase when all the code in it has a consistent
+style.
+
+A style guide cover much more than formatting of the source code. To be
+complete, this guides, should cover other aspects of the codebase such as how to
+structure the files, rules about the usage of specific language structures or
+features and policies that could prevent some dark corners or enforce stability,
+security, maintainability, ...
+
+To be effective, whenever possible, this guides should be accompanied with
+automated tools, or IDE configurations, that ensure the code follows them. To
+this end, most of the rules will include the configuration needed to enforce the
+rule with the linter or formatter most used in the specified language or
+technology. When appropriate, a generated configuration package will be provided
+to ease the adoption of the guides.
+
+== Style guides
+
+TODO: put here all available style guides
+
+== License
+include::LICENSE.adoc[leveloffset=2]
+
